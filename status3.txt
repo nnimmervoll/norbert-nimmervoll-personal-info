@@ -1,0 +1,23 @@
+PS G:\RLFiles\Kolleg\Informatik\3ACIF\0SYPPRE\norbert-nimmervoll-personal-info> git commit -m "Adding first iteration of index.html"                     
+[main d8d9a76] Adding first iteration of index.html
+ 1 file changed, 25 insertions(+)
+ create mode 100644 index.html
+PS G:\RLFiles\Kolleg\Informatik\3ACIF\0SYPPRE\norbert-nimmervoll-personal-info> git status                                          
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        160492-dark-grey-textured-background.jpg
+        github_32.png
+        github_512.png
+        status1.txt
+        status2.txt
+        status3.txt
+        style.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+I am one commit ahead of the main branch on the repo, how to push my changes, and ofc the still untracked files list.

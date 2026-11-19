@@ -1,0 +1,72 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*Georgia, 'Times New Roman', Times, serif;*/
+    background-image: url("./160492-dark-grey-textured-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #202020;
+    color: #ece5e5;
+}
+h1 {
+    font-size: 150%;
+}
+h2 {
+    font-size: 135%;
+    margin-bottom: 2%;
+}
+h3 {
+    font-size: 115%;
+}
+section {
+    margin-bottom: 2%;
+}
+p {
+    font-size: 95%;
+    margin-bottom: -6pt;
+    text-indent: 2cap hanging;
+}
+a {
+    color: dodgerblue ;
+}
+ul {
+    list-style-type: circle;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+code {
+    font-family: "Lucida Console", Courier, monospace;
+    font-size: 1.4ch;
+    color: #FFFFFF;
+    background-color: rgb(107, 107, 107);
+    padding-right: 20pt;
+    padding-left: 20pt;
+    padding-top: 1pt;
+    padding-bottom: 1pt;
+    border: thin solid white;
+    border-top-left-radius: 2pt;
+    border-top-right-radius: 2pt;
+    border-bottom-left-radius: 2pt;
+    border-bottom-right-radius: 2pt;
+}
+#code {
+    font-family: "Lucida Console", Courier,  monospace;
+    font-size: inherit;
+    text-indent: 5em;
+}
+pre {
+    font-family: "Lucida Console", Courier, monospace;
+    font-size: 0.8em;
+    background-color: rgb(107, 107, 107);
+    border: thin solid white;
+    border-radius: 2pt;
+    padding: 4pt 8pt;
+    margin: 4pt 0;
+}
+#combinator {
+    div p   { color: lightblue; }   /* descendant       */
+    div > p { color: darkcyan; }    /* direct child     */
+    h3 ~ p  { color: lightgreen; }  /* general sibling  */
+    h3 + p  { color: green; }       /* adjacent sibling */
+}

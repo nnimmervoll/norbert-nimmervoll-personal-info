@@ -1,0 +1,16 @@
+PS G:\RLFiles\Kolleg\Informatik\3ACIF\0SYPPRE\norbert-nimmervoll-personal-info> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        160492-dark-grey-textured-background.jpg
+        github_32.png
+        github_512.png
+        index.html
+        style.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+It and the files it depends on are not yet tracked by git, so they are not checked for changes (modified), nor can they be committed nor pushed.
